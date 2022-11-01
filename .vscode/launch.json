@@ -6,7 +6,7 @@
     "configurations": [
         {
             "cwd": "${workspaceRoot}",
-            "executable": "${workspaceRoot}/build/openm3-blinky.elf",
+            "executable": "${workspaceRoot}/build/opencm3-blinky.elf",
             "name": "Debug with OpenOCD",
             "request": "launch",
             "type": "cortex-debug",

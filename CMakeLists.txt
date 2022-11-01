@@ -11,10 +11,6 @@ endif()
 
 include(opencm3.cmake)
 
-set(ELF opencm3-blinky.elf)
-
-add_executable( ${ELF}
+add_bluepill_executable_64K( opencm3-blinky
 	main.c
 )
-
-target_link_libraries(${ELF} -T "${PROJECT_SOURCE_DIR}/bluepill-64K.ld" -T "${OPENCM3_LD_SCRIPT}" --static -nostartfiles -fno-common -Wl,--gc-sections -Wl,--start-group -lc -lgcc -lnosys -Wl,--end-group stm32f103)

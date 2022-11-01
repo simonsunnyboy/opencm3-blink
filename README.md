@@ -43,7 +43,7 @@ Linkable libraries are provided for the STM32 Blue pill.
 
 libopemcm3 is not build from this example. It uses existing binaries.
 
-A CMake macro add_bluepill_executable is provided to build an executable
+A CMake macro add_bluepill_executable_64K is provided to build an executable
 with all necessary flags, map and listing file to both .elf and .hex
 formats.
 
