@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(openm3-blinky)
+project(opencm3-blinky)
 
 if( NOT CMAKE_BUILD_TYPE )
   set( CMAKE_BUILD_TYPE Debug CACHE STRING
@@ -50,7 +50,7 @@ set(COMPILE_OPTIONS
 
 add_definitions(${COMPILE_OPTIONS})
 
-set(ELF openm3-blinky.elf)
+set(ELF opencm3-blinky.elf)
 
 add_executable( ${ELF}
 	main.c
