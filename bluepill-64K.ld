@@ -1,0 +1,6 @@
+/* Define memory regions for use with libcortexm3. */
+MEMORY
+{
+	rom (rx) : ORIGIN = 0x08000000, LENGTH = 64K
+	ram (rwx) : ORIGIN = 0x20000000, LENGTH = 20K
+}

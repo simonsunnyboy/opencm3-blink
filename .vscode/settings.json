@@ -1,0 +1,5 @@
+{
+    "cmake.cmakePath": "cmake",
+    "cmake.configureArgs": [ "-DCMAKE_TOOLCHAIN_FILE=/home/marndt/Projects/STM32_BluePill/arm-cmake-toolchains/arm-gcc-toolchain.cmake" ],
+}
+
