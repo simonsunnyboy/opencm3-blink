@@ -22,6 +22,8 @@ THE SOFTWARE.
 
 ## Abstract
 
+LED blink example for STM32 Bluepill with led connected to GPIOC pin 13.
+
 Use a proper CMake toolchain in the following fashion to build.
 <https://github.com/vpetrigo/arm-cmake-toolchains> works well.
 
