@@ -1,6 +1,6 @@
 # libopencm3 blinky example for STM32 Blue Pill
 
-(c) 2022 by Matthias Arndt <marndt@asmsoftware.de>
+(c) 2022 by Matthias Arndt <marndt@final-memory.org>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -37,13 +37,13 @@ Use a proper CMake toolchain in the following fashion to build.
 ## libopencm3 integration
 
 This project provides an example on integration of an existing libopencm3
-build into a geenric project. The file opencm3.cmake expects to find the
+build into a generic project. The file opencm3.cmake expects to find the
 library in the usual locations (/usr, /usr/local and /opt) but allows for
 user side configuration.
 
 Linkable libraries are provided for the STM32 Blue pill.
 
-libopemcm3 is not build from this example. It uses existing binaries.
+libopencm3 is not build from this example. It uses existing binaries.
 
 A CMake macro add_bluepill_executable_64K is provided to build an executable
 with all necessary flags, map and listing file to both .elf and .hex
@@ -52,5 +52,5 @@ formats.
 ## Linker file
 
 The basic linker file is according to the libopencm3 standard.
-The complete linker file from the stgandard is added to the minimum
+The complete linker file from the standard is added to the minimum
 memory map provided in the project specific linker file.

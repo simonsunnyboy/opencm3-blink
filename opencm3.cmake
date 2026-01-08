@@ -1,6 +1,6 @@
-# libopencm3 example CMake subsystem
+# # libopencm3 example CMake subsystem
 #
-# (c) 2022 by Matthias Arndt <marndt@asmsoftware.de>
+# (c) 2022 by Matthias Arndt <marndt@final-memory.org>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
